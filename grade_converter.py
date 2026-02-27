@@ -1,8 +1,8 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Kanna Sugiyama
+# DATE: February 27, 2026 
+# BRIEF DESCRIPTION: This experience will ask for a percentage and return the corresponding letter grade.
 
 
 
@@ -15,22 +15,27 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-print('===== Grade Converter =====')
+print()
+print("===== Grade Converter =====")
 
-percent = int(input('Enter a numerical grade (1-100): '))
+numerical_grade = int(input("Enter a numerical grade (1-100): "))
 
-if percent > 100:
-    print('A+')
-elif percent >= 90:
-    print('A')
-elif percent >= 80:
-    print('B')
-elif percent >= 70:
-    print('C')
-elif percent >= 65:
-    print('D')
-else:
-    print('F')
+if numerical_grade > 100:
+    print("A+")
+elif numerical_grade >=90:
+    print("A")
+elif numerical_grade >=80:
+    print("B")
+elif numerical_grade >=70:
+    print("C")
+elif numerical_grade >=65:
+    print("D")
+elif numerical_grade < 65:
+    print("F")
+
+
+
+
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -84,7 +89,8 @@ D
 
 1. What is something you would tell a future student to be careful about when
    doing this lab?
-
+I would like to tell the future students that the order matters because I remember when I did this for the first time when I was still a very beginner
+of coding, almost every input became D because the order was upside down. For example, both 100 and 66 fall for the category "> 65", which is D.
 
 
 
